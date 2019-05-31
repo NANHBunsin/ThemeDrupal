@@ -1,0 +1,20 @@
+name: learning
+type: theme
+description: learning theme
+package: Custom
+base theme: classy
+core: 8.x
+
+stylesheets-remove:
+  -"stylesheet to be removed"
+
+libraries:
+  - learning/global-styling-and-scripts
+regions:
+  header: Header
+  navigation: Navigation
+  left_sidebar: Left Sidebar
+  main_content: Content
+  footer: Footer
+  page_top: Page top
+  page_bottom: Page bottom

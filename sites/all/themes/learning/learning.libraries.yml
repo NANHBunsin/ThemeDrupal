@@ -1,0 +1,10 @@
+global-styling-and-scripts:
+version: VERSION
+css:
+theme:
+css/style.css: {}
+# dependencies:
+#   - core/jquery
+#   - core/jquery.ui.effects.core
+js:
+js/main.js: {}
